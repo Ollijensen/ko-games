@@ -1,0 +1,116 @@
+body {
+    background-image: url("images/background-black.jpg"); 
+    font-family: 'space_rangerregular';
+    margin: 0 0 0 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+/* NAV */
+.navbar {
+    color: black;
+}
+.nav-text {
+    color: white;
+}
+.nav-text:hover {
+    color: #28A745;
+}
+
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+/* SCROLL */
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+.navbg {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+.burger {
+    margin: 1rem;
+}
+
+/* FRONTPAGE */
+h1 {
+    font-size: 5vw;
+}
+h5 {
+    color: white;
+}
+p {
+    color: white;
+    
+}
+
+
+/* card */
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+
+/* PROFILE PAGE */
+
+.profiletext {
+    font-size: 3vh;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+.footnav {
+    padding: 0;
+}
+
+
+/* CANVAS */
+
+canvas{
+  
+    display: block;
+    margin: 0 auto;
+     
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+
+@media (max-width: 992px) {
+
+
+
+.navbar-collapse {
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+} 
+
+
+
+
